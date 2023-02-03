@@ -1,0 +1,41 @@
+body{
+    background-image: url("image/val.png");
+
+}
+
+#maintitle{
+text-align: center;
+font-size: 3vw;
+color: yellow;
+}
+
+.column1 {
+    float: left;
+    width: 50%;
+    color:aliceblue;
+  }
+  
+  .row {
+    display: flex;
+    border: white 5px solid;
+  }
+  
+  .column2 {
+    flex: 50%;
+    color:aliceblue;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .images{
+    max-width: 100%;
+
+  }
+   
+   .row:after {
+    content: "";
+    display: table;
+    clear: both;
+
